@@ -81,6 +81,12 @@ namespace CajeroAutomatico
 
         }
 
+        private void MostrarSaldo()
+        {
+            Console.WriteLine($"Su saldo es: {saldo}");
+        }
+
+
     }
 }
         
