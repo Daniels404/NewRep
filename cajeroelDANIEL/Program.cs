@@ -20,6 +20,12 @@ namespace CajeroAutomatico
         private string numeroCuenta;
         private string clave;
         private decimal saldo;
+        public Cajero(string numeroCuenta, string clave, decimal saldo)
+        {
+            this.numeroCuenta = numeroCuenta;
+            this.clave = clave;
+            this.saldo = saldo;
+        }
 
     }
 }
