@@ -70,7 +70,7 @@ namespace CajeroAutomatico
                             CambiarClave();
                             break;
                         case 6:
-                            Console.WriteLine("Gracias por utilizar el cajero automático");
+                            Console.WriteLine("Gracias por utilizar el cajero automáticoo");
                             return;
                         default:
                             Console.WriteLine("Opción inválida, por favor ingrese una opción válida");
