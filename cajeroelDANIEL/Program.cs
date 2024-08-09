@@ -136,7 +136,7 @@ namespace CajeroAutomatico
             string nuevaClave = Console.ReadLine();
 
             clave = nuevaClave;
-            Console.WriteLine("Clave cambiada con éxitoooo");
+            Console.WriteLine("Clave cambiada con éxito");
         }
     }
 
