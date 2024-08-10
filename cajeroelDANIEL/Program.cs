@@ -105,42 +105,7 @@ namespace CajeroAutomatico
         }
 
 
-        private void RetirarDinero()
-        {
-            Console.Write("Ingrese el monto a retirarr: ");
-            decimal montoRetirar = Convert.ToDecimal(Console.ReadLine());
-
-            if (saldo >= montoRetirar)
-            {
-                saldo -= montoRetirar;
-                Console.WriteLine($"Se ha retirado {montoRetirar}");
-            }
-            else
-            {
-                Console.WriteLine("No hay suficiente saldo para realizar el retiro");
-            }
-        }
-
-        private void DepositarDinero()
-        {
-            Console.Write("Ingrese el monto a depositar: ");
-            decimal montoDepositar = Convert.ToDecimal(Console.ReadLine());
-
-            saldo += montoDepositar;
-            Console.WriteLine($"Se ha depositado {montoDepositar}");
-        }
-
-        private void CambiarClave()
-        {
-            Console.Write("Ingrese la nueva clave: ");
-            string nuevaClave = Console.ReadLine();
-
-            clave = nuevaClave;
-            Console.WriteLine("Clave cambiada con éxito");
-        }
     }
-
-
 }
 
 
