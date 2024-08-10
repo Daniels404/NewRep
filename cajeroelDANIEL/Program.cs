@@ -117,7 +117,7 @@ namespace CajeroAutomatico
             }
             else
             {
-                Console.WriteLine("No hay suficiente saldo para realizar el retiro0");
+                Console.WriteLine("No hay suficiente saldo para realizar el retiro");
             }
         }
 
