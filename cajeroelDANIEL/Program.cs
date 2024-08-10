@@ -107,7 +107,7 @@ namespace CajeroAutomatico
 
         private void RetirarDinero()
         {
-            Console.Write("Ingrese el monto a retirar: ");
+            Console.Write("Ingrese el monto a retirarr: ");
             decimal montoRetirar = Convert.ToDecimal(Console.ReadLine());
 
             if (saldo >= montoRetirar)
